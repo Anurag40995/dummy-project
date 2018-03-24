@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<title>SiS Security</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<style>
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: maroon;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 25px;}
+  .sidenav a {font-size: 18px;}
+}
+span
+{
+ padding: 150px;
+  margin-bottom: 35%;
+}
+img{
+ margin-left:  20%;
+}s
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="about.html">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="contact.html">Contact</a>
+</div>
+<span style="font-size:60px;cursor:pointer" onclick="openNav()" >&#9776;</span>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+ <img src="Sis.jpg" alt="SIS" width="280" height="150">  
+ 
+</body>
+<style>
+.mySlides {display:none;}
+</style>
+<style>
+.id{
+ padding-left:0px;
+ margin:60px;
+}
+</style>
+<body>
+<div  class="id">
+<div  style="max-width:500px" >
+  <img class="mySlides" src="a.jpg" style="width:250%">
+  <img class="mySlides" src="b.jpg" style="width:250%">
+  <img class="mySlides" src="c.jpg" style="width:250%">
+</div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds88
+}
+</script>
+</p>
+</body>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+<style>
+.demo{padding:100px;
+}
+</style>
+<body>
+<div class="demo">
+<div class="row">
+  <div class="column" style="background-color:#C33235" >
+    <h2 style="color:white">SECURITY SERVICES</h2>
+    <p style="color:white">The SIS Group is a leading provider of security services both in India and Australia with diverse solutions across the security spectrum. The portfolio of services includes security design and solutions, fire safety, event security, VIP protection, aviation security, emergency response, investigation work and integrated technology solutions providing man-tech solutions.</p>
+  </div>
+  <div class="column" style="background-color:#EDEDEB">
+    <h2>Cash Logistics</h2>
+    <p>Our Cash Logistics operations have further diversified our clientele with capabilities spanning over cash in-transit, doorstep banking, ATM-related services, bullion and cash vaulting services. We are today the second largest cash logistics company in India and also the fastest growing.</p>
+  </div>
+  <div class="column" style="background-color:#4C4C4C" style="color:white">
+    <h2 style="color:white">Facility Management</h2>
+    <p style="color:white">Facility Management services are designed and delivered according to the customers need; be it housekeeping services, janitorial support, HVAC repairs or pest control. We have shown significant growth over the past few years to become the 4th largest player in this space with a nationwide presence like few others. The clients are as diverse as our services, ranging from households, businesses and industrial establishments.</p>
+  </div>
+</div>
+</div>
+<style>
+.footer {
+    color:white;
+    background-color:#4D4D4F;
+    padding: 40px;
+    text-align: center;
+}
+</style>
+<div class="footer">
+  <p>investorrelations@gmail.com<br>Tel:+91-11-46464444</p>
+   <p> <i class="fa fa-facebook-official" style="font-size:36px"></i> &nbsp;  &nbsp;      <i class="fa fa-twitter" style="font-size:36px"></i> &nbsp; &nbsp; <i class="fa fa-google-plus" style="font-size:36px"></i></p>
+  <p>Copyright 2017. Security & Intelligence Services (India) Ltd. All Right Reserved.</p>
+</div>
+</body>
+</html> 
